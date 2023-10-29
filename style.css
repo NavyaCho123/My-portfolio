@@ -1,0 +1,68 @@
+
+h1{
+    color: brown;
+    margin: 30px;
+}
+.menu{
+    padding: 20px;
+}
+
+.menu *{
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+a:link{
+    color: purple;
+}
+
+a:visited{
+    color: coral;
+}
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
+
+body {
+    background-color: #c4b7a6;
+}
+
+img {
+    border-radius: 25px;
+}
+
+.header{
+    display: flex;
+    background-color: beige;
+    justify-content: space-between;
+}
+
+.item p{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+
+}
